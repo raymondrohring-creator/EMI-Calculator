@@ -27,7 +27,7 @@ public class EMI_Calculator {
 		double emi = (principal * monthlyInterestRate * Math.pow(1 + monthlyInterestRate, tenureMonths))
 						/ (Math.pow(1 + monthlyInterestRate, tenureMonths) - 1);
 		
-		System.out.println("Your monthly EMI is: " + emi);
+		System.out.printf("Your estimated monthly EMI payment is: $%,.2f%n", emi);
 
 	}
 
