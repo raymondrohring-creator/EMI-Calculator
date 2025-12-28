@@ -1,9 +1,3 @@
-# EMI-Calculator
-
-Here’s a clean, beginner-friendly **README.md** written in **GitHub Markdown** for your Java EMI calculator project. You can copy-paste this directly into your repository.
-
----
-
 # EMI Calculator (Java)
 
 A simple **Java console application** that calculates the **Equated Monthly Installment (EMI)** for a loan based on user input.
@@ -77,7 +71,7 @@ Enter loan tenure in years...
 ## 📤 Sample Output
 
 ```
-Your monthly EMI is: 461.45
+Your estimated monthly EMI payment is: $461.45
 ```
 
 *(Output value may vary slightly due to decimal precision)*
@@ -115,10 +109,3 @@ This line applies the EMI formula using Java’s `Math.pow()` function.
 
 Created as a learning exercise to practice Java fundamentals and real-world financial calculations.
 
----
-
-If you want, I can also:
-
-* Improve the formatting of the EMI output
-* Add currency formatting
-* Convert this into a GUI or web version
